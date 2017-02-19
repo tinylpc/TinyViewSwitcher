@@ -17,6 +17,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
@@ -29,4 +32,6 @@ publish {
     groupId = 'com.tinylpc'//jcenter上的路径
     artifactId = 'view-switcher'//项目名称
     publishVersion = '1.0.0'//版本号
+    desc = 'Oh hi, this is a nice description for a project, right?'
+    website = 'https://github.com/tinylpc/TinyViewSwitcher.git'
 }
