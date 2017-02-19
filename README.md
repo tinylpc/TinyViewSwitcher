@@ -54,3 +54,4 @@ ts.setResource(scenery);
 ```
 
 # Example
+https://github.com/tinylpc/TinyViewSwitcher/blob/master/app/src/main/java/tiny/switcherdemo/MainActivity.java
